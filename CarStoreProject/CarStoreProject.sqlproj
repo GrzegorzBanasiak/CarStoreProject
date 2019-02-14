@@ -59,6 +59,9 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
+    <Folder Include="Serwis\" />
+    <Folder Include="Serwis\Tables\" />
+    <Folder Include="Security\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Marka.sql" />
@@ -67,5 +70,10 @@
     <Build Include="dbo\Tables\Model.sql" />
     <Build Include="dbo\Tables\Klient.sql" />
     <Build Include="dbo\Tables\Cennik.sql" />
+    <Build Include="Serwis\Tables\HistoriaZamowienia.sql" />
+    <Build Include="Serwis\Tables\Zamowienie.sql" />
+    <Build Include="Serwis\Tables\Status.sql" />
+    <Build Include="Serwis\Tables\Usluga.sql" />
+    <Build Include="Security\Serwis.sql" />
   </ItemGroup>
 </Project>
