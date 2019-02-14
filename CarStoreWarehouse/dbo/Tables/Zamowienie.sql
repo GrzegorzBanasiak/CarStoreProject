@@ -14,6 +14,10 @@
     [CzyDostepny]    VARCHAR (200) NOT NULL,
     [KlientID]       INT           NOT NULL,
     [PracownikID]    INT           NOT NULL,
-    PRIMARY KEY CLUSTERED ([ID] ASC)
+    PRIMARY KEY CLUSTERED ([ID] ASC),
+    CONSTRAINT [FK_Klient] FOREIGN KEY ([KlientID]) REFERENCES [dbo].[Klient] ([ID]),
+    CONSTRAINT [FK_Pracownik] FOREIGN KEY ([PracownikID]) REFERENCES [dbo].[Pracownik] ([ID])
 );
+
+
 
