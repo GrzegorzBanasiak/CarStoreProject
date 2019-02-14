@@ -94,5 +94,8 @@
     <Build Include="rapOp\Views\ZespolPracownikow.sql" />
     <Build Include="rapOp\Views\PracownikStanowisko.sql" />
     <Build Include="rapOp\Views\PracownicyBezStanowiska.sql" />
+    <Build Include="rapOp\Views\ZamowieniaNaWymianeOleju.sql" />
+    <Build Include="rapOp\Views\PracownikUslugaSpawania.sql" />
+    <Build Include="rapOp\Views\IloscZamknietychUslugSerwisu.sql" />
   </ItemGroup>
 </Project>
