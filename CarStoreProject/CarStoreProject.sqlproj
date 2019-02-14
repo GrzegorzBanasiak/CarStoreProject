@@ -91,5 +91,8 @@
     <Build Include="rapOp\Views\ZamowieniaZRabatem.sql" />
     <Build Include="rapOp\Views\ZamowieniaPracownikow.sql" />
     <Build Include="rapOp\Views\ModeleBezZamowienia.sql" />
+    <Build Include="rapOp\Views\ZespolPracownikow.sql" />
+    <Build Include="rapOp\Views\PracownikStanowisko.sql" />
+    <Build Include="rapOp\Views\PracownicyBezStanowiska.sql" />
   </ItemGroup>
 </Project>
