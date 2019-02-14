@@ -62,5 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Marka.sql" />
+    <Build Include="dbo\Tables\Zamowienie.sql" />
+    <Build Include="dbo\Tables\Pracownik.sql" />
+    <Build Include="dbo\Tables\Model.sql" />
+    <Build Include="dbo\Tables\Klient.sql" />
+    <Build Include="dbo\Tables\Cennik.sql" />
   </ItemGroup>
 </Project>
