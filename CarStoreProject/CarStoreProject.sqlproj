@@ -64,6 +64,8 @@
     <Folder Include="Security\" />
     <Folder Include="HR\" />
     <Folder Include="HR\Tables\" />
+    <Folder Include="rapOp\" />
+    <Folder Include="rapOp\Views\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Marka.sql" />
@@ -85,5 +87,6 @@
     <Build Include="HR\Tables\Wynagrodzenie.sql" />
     <Build Include="Security\HR.sql" />
     <Build Include="Security\rapOp.sql" />
+    <Build Include="rapOp\Views\IloscZamowienMarki.sql" />
   </ItemGroup>
 </Project>
