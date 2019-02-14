@@ -13,12 +13,12 @@ BEGIN
 	('Fiat', 'Wlochy');
 	
 	INSERT INTO [dbo].[Pracownik] (Imie, Nazwisko, Pesel, NrKonta) VALUES
-	('Jacek','Bebak',12345678912, 12345678911),
-	('Robert','Kowalski',12345678913, 12345678911),
-	('Michal','Maczuga',12345678914, 12345678911),
-	('Arkadiusz','Nowak',12345678915, 12345678911),
-	('Tomek','Maczuga',12345678916, 12345678911),
-	('Maciek','Byrtek',12345678917, 12345678911);
+	('Jacek','Bebak',12345678911, 12345678911),
+	('Robert','Kowalski',12345678911, 12345678911),
+	('Michal','Maczuga',12345678911, 12345678911),
+	('Arkadiusz','Nowak',12345678911, 12345678911),
+	('Tomek','Maczuga',12345678911, 12345678911),
+	('Maciek','Byrtek',12345678911, 12345678911);
 	 
 	INSERT INTO [dbo].[Klient] (Imie, Nazwisko, Telefon, NrDowodu) VALUES
 	('Dawid','Duraj',666555777 , 'www-12345'),

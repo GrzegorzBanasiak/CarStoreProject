@@ -20,7 +20,5 @@ BEGIN
 	INSERT INTO [Serwis].[Zamowienie] (PracownikID, KlientID, UslugaID) VALUES
 	(@pracownikID, @klientID, @uslugaID)
 
-	SET @obrotPetli = @obrotPetli + 1 
-
 	END
 END

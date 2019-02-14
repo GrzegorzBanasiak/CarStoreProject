@@ -102,5 +102,6 @@
     <Build Include="dbo\Skrypt\DodajDane.sql" />
     <Build Include="dbo\Stored Procedures\WstawLosoweZamowieniaSerwisu.sql" />
     <Build Include="dbo\Stored Procedures\DodajDane.sql" />
+    <Build Include="dbo\Stored Procedures\WstawLosoweZamowienia.sql" />
   </ItemGroup>
 </Project>
