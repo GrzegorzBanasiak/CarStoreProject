@@ -67,6 +67,7 @@
     <Folder Include="rapOp\" />
     <Folder Include="rapOp\Views\" />
     <Folder Include="dbo\Skrypt" />
+    <Folder Include="dbo\Stored Procedures\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Marka.sql" />
@@ -99,5 +100,7 @@
     <Build Include="rapOp\Views\PracownikUslugaSpawania.sql" />
     <Build Include="rapOp\Views\IloscZamknietychUslugSerwisu.sql" />
     <Build Include="dbo\Skrypt\DodajDane.sql" />
+    <Build Include="dbo\Stored Procedures\WstawLosoweZamowieniaSerwisu.sql" />
+    <Build Include="dbo\Stored Procedures\DodajDane.sql" />
   </ItemGroup>
 </Project>
