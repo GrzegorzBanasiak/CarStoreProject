@@ -84,5 +84,6 @@
     <Build Include="HR\Tables\Wyplata.sql" />
     <Build Include="HR\Tables\Wynagrodzenie.sql" />
     <Build Include="Security\HR.sql" />
+    <Build Include="Security\rapOp.sql" />
   </ItemGroup>
 </Project>
